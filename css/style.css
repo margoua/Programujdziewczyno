@@ -310,3 +310,9 @@ footer p {
     display: none;
 
 }
+
+.btn {
+    text-transform: uppercase;
+    background-color: #ea6c56;
+    color: white;
+}

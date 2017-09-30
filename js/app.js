@@ -54,6 +54,12 @@ document.addEventListener('DOMContentLoaded', function() {
       pasek.style.borderBottom = '1px solid #7f7f7f';
   })
     
+    
+  var powrot = document.querySelector('.btn');
+    powrot.addEventListener('click', function(){
+        console.log('klik');
+    })
 
+    
     });
      
