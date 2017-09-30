@@ -48,7 +48,12 @@ document.addEventListener('DOMContentLoaded', function() {
     buttons[i].addEventListener('click', showHide);
   }
 
-
+  var pasek = document.querySelector('nav');
+    
+  window.addEventListener('scroll', function(){
+      pasek.style.borderBottom = '1px solid #7f7f7f';
+  })
+    
 
     });
      
